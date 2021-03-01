@@ -52,7 +52,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         // Check if camera is avaiable
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            picker.sourceType = .cameras
+            picker.sourceType = .camera
         }
         else {
             picker.sourceType = .photoLibrary
