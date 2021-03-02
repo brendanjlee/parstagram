@@ -35,7 +35,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
         }
          
-        query.findObjectsInBackground()
+        //query.findObjectsInBackground()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
